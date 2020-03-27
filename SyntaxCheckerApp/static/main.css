@@ -1,0 +1,38 @@
+.content-index-tab {
+    padding-top: 75px;
+    padding-left: 75px;
+    padding-right: 75px;
+    width: 80%;
+    height: 80%;
+    background: aliceblue;
+}
+
+.border.rounded.mb-0 {
+  background-color: #482d6a;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+
+.btn-space {
+  padding-top: 20px;
+}
+
+.card-body {
+  width: 80%;
+  height: 100%;
+}
+
+#txtArea {
+  width: 75%;
+  height: 250px;
+}
+
+.set-space {
+  padding-top: 50px;
+}
+
+.body-color {
+  background: #580505;
+}
+
