@@ -44,3 +44,32 @@ class Object(models.Model):
     class Meta:
         db_table = "object"
 
+
+class NounResponse:
+    noun_id: int
+    noun: str
+    comment: str
+
+
+class VerbResponse:
+    verb_id: int
+    verb: str
+    tense: str
+    noun_type: str
+    comment: str
+
+
+class AdverbResponse:
+    adverb_id: int
+    adverb: str
+    tense: str
+    comment: str
+
+
+class ResponseObject:
+    noun_details: NounResponse
+    verb_details: VerbResponse
+    adverb_details: AdverbResponse
+    status: str
+    details: str
+

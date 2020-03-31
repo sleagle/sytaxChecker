@@ -69,6 +69,8 @@ INSERT INTO time_adverb(content, tense_id) VALUES('ඉක්මණින්', 3)
 INSERT INTO time_adverb(content, tense_id) VALUES('ක්ෂණිකවම', 3);
 INSERT INTO time_adverb(content, tense_id) VALUES('පසුව', 3);
 
+ /* FIRST VERB */
+
 INSERT INTO verb(verb,tense_id,noun_id) VALUES('කෑවෙමි',2,1);
 INSERT INTO verb(verb,tense_id,noun_id) VALUES('කමි',1,1);
 INSERT INTO verb(verb,tense_id,noun_id) VALUES('කන්නෙමි',3,1);
@@ -113,29 +115,65 @@ INSERT INTO verb(verb,tense_id,noun_id) VALUES('බීවෙමු',2,2);
 INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොමු',1,2);
 INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොන්නෙමු',3,2);
 
-INSERT INTO verb(verb,tense_id,noun_id) VALUES('බිවෙහි ',2,3);
-INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොන්නෙහි',1,3);
-INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොන්නෙහි',3,3);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('බිවෙහි',2,3);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොන්නෙහි' ,1,3);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොන්නෙහි' ,3,3);
 
-INSERT INTO verb(verb,tense_id,noun_id) VALUES('බීවෙහු ',2,4);
-INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොන්නෙහු',1,4);
-INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොන්නෙහු',3,4);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('බීවෙහු',2,4);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොන්නෙහු' ,1,4);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොන්නෙහු' ,3,4);
 
 INSERT INTO verb(verb,tense_id,noun_id) VALUES('බීවේය',2,5);
-INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොන්නේය ',1,5);
-INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොන්නේය ',3,5);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොන්නේය ' ,1,5);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොන්නේය ' ,3,5);
 
-INSERT INTO verb(verb,tense_id,noun_id) VALUES('බීවාය ',2,6);
-INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොන්නීය',1,6);
-INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොන්නීය',3,6);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('බීවාය',2,6);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොන්නීය' ,1,6);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොන්නීය' ,3,6);
 
-INSERT INTO verb(verb,tense_id,noun_id) VALUES('බීවේය ',2,7);
-INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොයි',1,7);
-INSERT INTO verb(verb,tense_id,noun_id) VALUES('කයි',3,7);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('බීවේය',2,7);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොයි' ,1,7);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොයි' ,3,7);
 
-INSERT INTO verb(verb,tense_id,noun_id) VALUES('බීවෝය ',2,8);
-INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොති',1,8);
-INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොන්නෝය ',3,8);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('බීවෝය ' ,2,8);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොති' ,1,8);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('බොන්නෝය ', 3, 8);
+
+
+/* THIRD VERB */
+
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('ගියෙමි',2,1);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('යමි',1,1);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('යන්නෙමි',3,1);
+
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('ගියෙමු',2,2);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('යමු',1,2);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('යන්නෙමු',3,2);
+
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('ගියෙහි',2,3);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('යන්නෙහි',1,3);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('යන්නෙහි',3,3);
+
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('ගියෙහු',2,4);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('යන්නෙහු',1,4);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('යන්නෙහු',3,4);
+
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('ගියේය',2,5);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('යන්නේය',1,5);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('යන්නේය',3,5);
+
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('ගියාය',2,6);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('යන්නීය',1,6);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('යන්නීය',3,6);
+
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('ගියේය',2,7);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('යයි',1,7);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('යයි',3,7);
+
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('ගියාහ',2,8);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('යති',1,8);
+INSERT INTO verb(verb,tense_id,noun_id) VALUES('යති',3,8);
+
 
 INSERT INTO object(object) VALUES('බත්');
 

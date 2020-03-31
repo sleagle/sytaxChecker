@@ -22,9 +22,9 @@
                 <div class="card-body align-self-center set-space">
                     <h5 class="text-dark">Tagging and checking the Sinhala syntax.</h5>
                     <div>
-                        <p>Most of the time in sinhala the grammar follows as: Subject Object Verb</p>
+                        <p>Most of the time in Sinhala the grammar follows as: Subject Object Verb</p>
                         <div class="d-flex justify-content-center">
-                            <textarea id="txtAreaId" name="txtArea">{{ name }}</textarea>
+                            <textarea id="txtAreaId" name="txtArea">{{ request }}</textarea>
                         </div>
                         <div class="btn-space d-flex justify-content-end">
                             <input class="btn btn-primary text-right d-flex d-lg-flex justify-content-lg-center"
@@ -34,7 +34,22 @@
                 </div>
                 <div class="card">
                     <div class="card-body align-self-center set-space">
-                        <h5 class="text-dark">Tagging and sinhala syntax checker.</h5>
+                        <div class="row">
+                            <h5 class="text-dark">Grammar Status: </h5>
+                            <h6 class="text-black-50">{{ responseObj.status }}</h6>
+                        </div>
+                        {% if responseObj.status == "Incorrect Grammar"%}
+                            <div class="row">
+                                <h6 class="text-black-50">Reason:  </h6> <p>{{ responseObj.details }}</p>
+                            </div>
+                        {% endif %}
+                    </div>
+                    <div id="syntax-details" class="align-self-center">
+                        <div class="row">
+                            <p>{{ responseObj.noun_details.noun }}: {{ responseObj.noun_details.comment }}</p>
+                            <p class="h-space">{{ responseObj.verb_details.verb }}: {{ responseObj.verb_details.comment }}</p>
+                            <p class="h-space">{{ responseObj.adverb_details.adverb }}: {{ responseObj.adverb_details.comment }}</p>
+                        </div>
                     </div>
                 </div>
             </div>
